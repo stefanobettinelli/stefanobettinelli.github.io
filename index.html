@@ -31,9 +31,9 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Stefano Bettinelli</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -55,19 +55,25 @@
         <span class="name">Stefano Bettinelli</span>
         <hr class="star-light">
         <span class="skills">Software Developer - Self-Taught Artist - Human Being</span>
-        <ul class="list-inline">              
+        <ul class="list-inline">
           <li class="list-inline-item">
             <a class="btn-social btn-outline" target="_blank" href="https://www.linkedin.com/in/bettinellis/">
-                <i class="fa fa-fw fa-linkedin"></i>
+              <i class="fa fa-fw fa-linkedin"></i>
             </a>
             <a class="btn-social btn-outline" target="_blank" href="https://github.com/stefanobettinelli">
               <i class="fa fa-fw fa-github"></i>
             </a>
             <a class="btn-social btn-outline" target="_blank" href="https://www.instagram.com/spitagoric.art/">
               <i class="fa fa-fw fa-instagram"></i>
-            </a>            
-          </li>              
+            </a>
+          </li>
         </ul>
+        <span class="skills">
+          <a class="text-white" target="_blank" href="resources/StefanoBettinelliCV.pdf">Resume</a>
+          <a class="btn-social btn-outline" target="_blank" href="resources/StefanoBettinelliCV.pdf">            
+            <i class="fa fa-fw fa-file-text"></i>
+          </a>
+        </span>
       </div>
     </div>
   </header>
@@ -118,7 +124,7 @@
             <img class="img-fluid" src="img/portfolio/DLA.png" alt="">
           </a>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <!-- <div class="col-sm-4 portfolio-item">
           <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
             <div class="caption">
               <div class="caption-content">
@@ -137,7 +143,7 @@
             </div>
             <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -150,30 +156,23 @@
       <div class="row">
         <div class="col-lg-4 ml-auto">
           <p>
-            I'm a software engineer with 2 years of working experience and a MSc Degree from University of Bologna. 
-            I started my professional career as a junior developer for NoemaLife,
-            a healthcare software house based in Bologna, nice environment and filled with smart people. 
-            I then moved to a research fellowship program at CNR in Bologna to work on the development of an IoT platform
-            for the collection of atmospheric data. 
-            My main responsibilities in the project are to work both at the front-end and back-end of the platform (mainly with Javascript, Java and Python).
-            Currently my main goal is to improve as a software engineer to reach a senior level.
+            I'm a software engineer with 2 years of working experience and a MSc Degree from University of Bologna. I started my professional
+            career as a junior developer for NoemaLife, a healthcare software house based in Bologna, nice environment and
+            filled with smart people. I then moved to a research fellowship program at CNR in Bologna to work on the development
+            of an IoT platform for the collection of atmospheric data. My main responsibilities in the project are to work
+            both at the front-end and back-end of the platform (mainly with Javascript, Java and Python). Currently my main
+            goal is to improve as a software engineer to reach a senior level.
           </p>
         </div>
         <div class="col-lg-4 mr-auto">
           <p>
-            I'm also a Self-Taught Artist as I love drawing, something that I
-            have enjoyed a lot since I was a little boy.
-            It's my main source of relaxation, a form of meditation that
-            allows my imagination to flow without restrictions.
-            <br>
-            That's why I like to think of myself more as visual person,
-            I rarely go straight to code typing when it comes to problem solving or building something from scratch. 
-            Instead I firstly rely on a simple pencil and paper to sketch diagrams, UI mockups etc.
-            It is inspiring working on front-end development. I love watching
-            how people interact with the tools and the UIs I'm able to create.
-            Last but not least I'm really proud that I have some game development
-            experience under my belt, watching people playing at  my games is such
-            a fun and satisfying experience.
+            I'm also a Self-Taught Artist as I love drawing, something that I have enjoyed a lot since I was a little boy. It's my main
+            source of relaxation, a form of meditation that allows my imagination to flow without restrictions.
+            <br> That's why I like to think of myself more as visual person, I rarely go straight to code typing when it comes
+            to problem solving or building something from scratch. Instead I firstly rely on a simple pencil and paper to
+            sketch diagrams, UI mockups etc. It is inspiring working on front-end development. I love watching how people
+            interact with the tools and the UIs I'm able to create. Last but not least I'm really proud that I have some
+            game development experience under my belt, watching people playing at my games is such a fun and satisfying experience.
           </p>
         </div>
       </div>
@@ -211,8 +210,8 @@
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
   <div class="scroll-top d-lg-none">
     <a class="btn btn-primary js-scroll-trigger" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
+      <i class="fa fa-chevron-up"></i>
+    </a>
   </div>
 
   <!-- Portfolio Modals -->
@@ -231,18 +230,16 @@
                 <h2>Air pollution platform Data UI</h2>
                 <hr class="star-primary">
                 <img class="img-fluid img-centered" src="img/portfolio/box-data-viewer.png" alt="">
-                  <p>
-                    At CNR after building the backend stack (I was specifically in charge of building
-                    and maintaining the REST API using Spring Boot), my data scientist
-                    colleagues needed a simple UI tool for viewing the data collected by our platform
-                    and also a simple and easy way to download them in CSV format.
-                    To build this UI I've used React along with Redux for state managment 
-                    and <a target="_blank" href="http://www.material-ui.com/#/">material-ui</a> as 
-                    a UI framework.
-                  </p>                
+                <p>
+                  At CNR after building the backend stack (I was specifically in charge of building and maintaining the REST API using Spring
+                  Boot), my data scientist colleagues needed a simple UI tool for viewing the data collected by our platform
+                  and also a simple and easy way to download them in CSV format. To build this UI I've used React along with
+                  Redux for state managment and
+                  <a target="_blank" href="http://www.material-ui.com/#/">material-ui</a> as a UI framework.
+                </p>
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <i class="fa fa-times"></i>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -266,14 +263,16 @@
                 <hr class="star-primary">
                 <img class="img-fluid img-centered" src="img/portfolio/unityPDG.PNG" alt="">
                 <p>
-                  This is my master thesis work, I developed a plug-in for the Unity Game Engine that
-                  permits developers to easly create simple dungeon (a system of interconnect rooms without deadends and fully explorable).
-                  The entire project was coded in C#. I uploaded a demo <a target="_blank" href="https://youtu.be/ir7HyvhqpWM">video</a> and the <a target="_blank" href="https://docs.google.com/presentation/d/13oDPDftDjMGj-6vlmxi7qFeHjQh4InTvILIEReCfuGo/edit?usp=sharing">slides</a> used during my dissertation.
-                  Project <a target="_blank" href="https://github.com/stefanobettinelli/UnityPDG">repo</a>.
-                </p>                
+                  This is my master thesis work, I developed a plug-in for the Unity Game Engine that permits developers to easly create simple
+                  dungeon (a system of interconnect rooms without deadends and fully explorable). The entire project was
+                  coded in C#. I uploaded a demo
+                  <a target="_blank" href="https://youtu.be/ir7HyvhqpWM">video</a> and the
+                  <a target="_blank" href="https://docs.google.com/presentation/d/13oDPDftDjMGj-6vlmxi7qFeHjQh4InTvILIEReCfuGo/edit?usp=sharing">slides</a> used during my dissertation. Project
+                  <a target="_blank" href="https://github.com/stefanobettinelli/UnityPDG">repo</a>.
+                </p>
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <i class="fa fa-times"></i>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -298,15 +297,17 @@
                 <hr class="star-primary">
                 <img class="img-fluid img-centered" src="img/portfolio/annodomini.jpg" alt="">
                 <p>
-                  A <a target="_blank" href="https://github.com/stefanobettinelli/anno_domini">project</a> developed during University for the Distributed Systems course with 2 ex colleagues.
-                  <a target="_blank" href="https://boardgamegeek.com/boardgame/43110/anno-domini-america">Anno Domini</a> is famous card card game
-                  and this project is a <strong>Distributed Implementation</strong> with a python microframework called <a target="_blank" href="http://flask.pocoo.org/">Flask</a>
+                  A
+                  <a target="_blank" href="https://github.com/stefanobettinelli/anno_domini">project</a> developed during University for the Distributed Systems course with 2 ex colleagues.
+                  <a target="_blank" href="https://boardgamegeek.com/boardgame/43110/anno-domini-america">Anno Domini</a> is famous card card game and this project is a
+                  <strong>Distributed Implementation</strong> with a python microframework called
+                  <a target="_blank" href="http://flask.pocoo.org/">Flask</a>
                   and Javascript for the front-end UI.
                   <a target="_blank" href="https://github.com/stefanobettinelli/anno_domini">Github repository</a>.
-                </p>                
+                </p>
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <i class="fa fa-times"></i>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -333,10 +334,10 @@
                   A simple implementation of some typical DLA type of aggregation. Coded in Java with a minimalistic 2D game engine called
                   <a target="_blank" href="http://mini2dx.org/">mini2Dx</a>.
                   <a target="_blank" href="https://github.com/stefanobettinelli/DLA-simulations">Github repo</a>.
-                </p>                
+                </p>
                 <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+                  <i class="fa fa-times"></i>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -344,7 +345,7 @@
       </div>
     </div>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -433,7 +434,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
